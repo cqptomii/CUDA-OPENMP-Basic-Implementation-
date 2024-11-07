@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\HelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04BA7733-19F8-4C8C-AD7C-E1CCB8094271}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\HelloWorld\\HelloWorld\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{04BA7733-19F8-4C8C-AD7C-E1CCB8094271}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 247,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\HelloWorld\\HelloWorld\\kernel.cu",
+              "RelativeDocumentMoniker": "HelloWorld\\kernel.cu",
+              "ToolTip": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\HelloWorld\\HelloWorld\\kernel.cu",
+              "RelativeToolTip": "HelloWorld\\kernel.cu",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-23T08:20:11.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
