@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\OPENMP\MatrixMult\MatrixMult\Project1\main.cpp(45,35): error C2065: 'i' : identificateur non déclaré
+C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\OPENMP\MatrixMult\MatrixMult\Project1\main.cpp(45,37): error C2065: 'j' : identificateur non déclaré
