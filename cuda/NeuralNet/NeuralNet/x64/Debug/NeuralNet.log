@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\NeuralNet\NeuralNet>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\mingw_dev_lib\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\NeuralNet\NeuralNet\x64\Debug\kernel.cu.obj" "C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\NeuralNet\NeuralNet\kernel.cu" 
+C:\mingw_dev_lib\vcpkg\installed\x64-windows\include\fann_data.h(382): warning #1835-D: attribute "dllimport" does not apply here
+    __declspec(dllimport) typedef int(__stdcall *fann_callback_type)(struct fann *ann,
+               ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\mingw_dev_lib\vcpkg\installed\x64-windows\include\fann_data.h(382): warning #1835-D: attribute "dllimport" does not apply here
+    __declspec(dllimport) typedef int(__stdcall *fann_callback_type)(struct fann *ann,
+               ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00004afc_00000000-7_kernel.cudafe1.cpp
+  NeuralNet.vcxproj -> C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Lab-Cuda\NeuralNet\x64\Debug\NeuralNet.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
