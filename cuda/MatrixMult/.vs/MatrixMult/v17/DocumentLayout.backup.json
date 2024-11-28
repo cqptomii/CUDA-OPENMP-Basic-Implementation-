@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\MatrixMult\\",
+  "WorkspaceRootPath": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\Cuda\\MatrixMult\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EB272E2-1175-476E-BFEF-3C403C6605BB}|MatrixMult\\MatrixMult.vcxproj|C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\MatrixMult\\MatrixMult\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7EB272E2-1175-476E-BFEF-3C403C6605BB}|MatrixMult\\MatrixMult.vcxproj|C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\Cuda\\MatrixMult\\MatrixMult\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7EB272E2-1175-476E-BFEF-3C403C6605BB}|MatrixMult\\MatrixMult.vcxproj|solutionrelative:MatrixMult\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "kernel.cu",
-              "DocumentMoniker": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\MatrixMult\\MatrixMult\\kernel.cu",
+              "DocumentMoniker": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\Cuda\\MatrixMult\\MatrixMult\\kernel.cu",
               "RelativeDocumentMoniker": "MatrixMult\\kernel.cu",
-              "ToolTip": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\MatrixMult\\MatrixMult\\kernel.cu*",
-              "RelativeToolTip": "MatrixMult\\kernel.cu*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tomfr\\Desktop\\Cursus Ing\u00E9nieur\\INFO\\INFO1\\PC40\\Lab-Cuda\\Cuda\\MatrixMult\\MatrixMult\\kernel.cu",
+              "RelativeToolTip": "MatrixMult\\kernel.cu",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-24T21:24:12.623Z",
               "EditorCaption": ""

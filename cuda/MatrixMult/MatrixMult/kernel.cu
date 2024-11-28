@@ -86,9 +86,9 @@ int main(int argc,char **argv)
 
     //Initalisation
 
-    cudaMemcpy(d_matrix_a, h_matrix_a, sizeof(float) * N * N, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_matrix_b, h_matrix_b, sizeof(float) * N * N, cudaMemcpyHostToDevice);
-    cudaMemset(d_matrix_result, 0, sizeof(float) * N * N);
+    cudaMemcpyAsync(d_matrix_a, h_matrix_a, sizeof(float) * N * N, cudaMemcpyHostToDevice,0);
+    cudaMemcpyAsync(d_matrix_b, h_matrix_b, sizeof(float) * N * N, cudaMemcpyHostToDevice,0);
+    cudaMemsetAsync(d_matrix_result, 0, sizeof(float) * N * N,0);
 
     //Grid dim and block dim
 
@@ -111,11 +111,10 @@ int main(int argc,char **argv)
 
     mmult<<<grid, block>>> (d_matrix_a,d_matrix_b,d_matrix_result,N);
 
-    cudaMemcpy(h_matrix_result, d_matrix_result, sizeof(float) * N * N, cudaMemcpyDeviceToHost);
-
     cudaEventRecord(stop,0);
     cudaEventSynchronize(stop);
 
+    cudaMemcpy(h_matrix_result, d_matrix_result, sizeof(float) * N * N, cudaMemcpyDeviceToHost);
     //print the matrix
     mprint(h_matrix_result, N, 5);
 
@@ -125,11 +124,15 @@ int main(int argc,char **argv)
 
     printf("time = %.2f   GFLOPS = %.3f \n", time_elapsed, (float) N*N*N*2.0f / time_elapsed / 1E9);
 
+    cudaEventDestroy(start);
+    cudaEventDestroy(stop);
+
     cudaFree(d_matrix_a);
     cudaFree(d_matrix_b);
     cudaFree(d_matrix_result);
     free(h_matrix_a);
     free(h_matrix_b);
     free(h_matrix_result);
+
     return EXIT_SUCCESS;
 }
