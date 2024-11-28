@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Neural Network\Neural-base\Neural-base\Source.cpp(20,54): warning C4267: 'argument' : conversion de 'size_t' en 'unsigned int', perte possible de données
+  Neural-base.vcxproj -> C:\Users\tomfr\Desktop\Cursus Ingénieur\INFO\INFO1\PC40\Neural Network\Neural-base\x64\Debug\Neural-base.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
